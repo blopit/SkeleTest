@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7430198891594BECA1941056 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7A0FCE19C6E14F08A812DBFC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CBFDEDDD3CD344418489788B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B019071211F64075ABE9A341 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78ABBE9A53F84CC6B22FCC7A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E1D1B767960049609B72B9F9 /* CMake Rules */,
+			);
+			dependencies = (
+				55A71A64BDE14BEE8315EADB /* PBXTargetDependency */,
+				1638F37E8AD54F65AD9E0838 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0560226750A44AD687571E59 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 0EFC3B02E5B54A8D8F146A84 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		10AB92F2E6C840E797770847 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = D3B655CFA2AB40F78C94EE5C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		17A2990AF921483FA85F1934 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 6155B0222BB34557950EE18A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		1C8B0FAB651746B1A63C2774 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 4BD82E6A5CB44B5E87AF14A1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		2000A3CDBAB9447B88225615 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 8396661691BD49C481A37246 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		22B8023F18124014B77C0494 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = DD73A0B68F504FE2913BDA5C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		275156A8712F4DDB84E8EB45 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = AC9C8B27C0A9409492380783 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		712F23E4A5FE40399DC5302A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 64B3E68B638148BDB67CCA53 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/fastlz/fastlz.c */; };
+		7181503D295A4B94999B949F /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 174E118762BB4008B28EAF9C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		73ADB036A405423FA26C482C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 4D24A804DD5A4A6C8B752769 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		7B76E49EBBE845D2A1C83EA3 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7899985DAA774C97A55D83AE /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/CMakeLists.txt */; };
+		7EB853B2767D4168B07013EB /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 91FA808B407149BEAF836D1E /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		8807CA9333CF4E2494814966 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 0FCB1D49166C423E993B9363 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		8E997AB1B2C746B88DBA568F /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 3276A4B8C9B04AFBAAE8565A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		B9F4282B396D4E2A989F0C5A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 2A52E67A3C9A44F693482060 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		CBBFC055B24A4B279EE173B9 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 0D330F8EC26843CDBA203AE1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		EB980F7B7E5E4D8781978889 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 6C459D979B8446088DF377A1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		FEA4A06A81004C6193366A24 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 4595E4CC860D41CB89B9E72E /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3A68DB262D1E4665974FD045 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		483F932DF000453C91CDE477 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7A878D979A81403CB973DE39 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D0EFE87B6F27468CB48D893B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		279F477E2FEE4665BF55FA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729D40E3B3294E5B907D5639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7430198891594BECA1941056;
+			remoteInfo = ZERO_CHECK;
+		};
+		576696BEE4184E98B16F8BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729D40E3B3294E5B907D5639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7430198891594BECA1941056;
+			remoteInfo = ZERO_CHECK;
+		};
+		85325B8C0A414DE9970B90F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729D40E3B3294E5B907D5639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65295E268CEF445A8CDDC9FB;
+			remoteInfo = ext_recast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D330F8EC26843CDBA203AE1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		0EFC3B02E5B54A8D8F146A84 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		0FCB1D49166C423E993B9363 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		174E118762BB4008B28EAF9C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		2A52E67A3C9A44F693482060 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		3276A4B8C9B04AFBAAE8565A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		4595E4CC860D41CB89B9E72E /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		4BD82E6A5CB44B5E87AF14A1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		4D24A804DD5A4A6C8B752769 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		6155B0222BB34557950EE18A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		64B3E68B638148BDB67CCA53 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		6C459D979B8446088DF377A1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		7899985DAA774C97A55D83AE /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8396661691BD49C481A37246 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		867021C0E46049258EDD1440 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		91FA808B407149BEAF836D1E /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		AC9C8B27C0A9409492380783 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		BB7AE727E0344B32977D40B6 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B655CFA2AB40F78C94EE5C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		DD73A0B68F504FE2913BDA5C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		46D7539E7D2C41B2B029D1F0 = {
+			isa = PBXGroup;
+			children = (
+				EE19976F86614F939C4B857F /* External */,
+				DCDE65D83560472D88A4339E /* ALL_BUILD */,
+				7302B76637D2443199E15824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64AC32D568BE4116B8099075 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD73A0B68F504FE2913BDA5C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				4595E4CC860D41CB89B9E72E /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				AC9C8B27C0A9409492380783 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				4BD82E6A5CB44B5E87AF14A1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				0FCB1D49166C423E993B9363 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				4D24A804DD5A4A6C8B752769 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				6C459D979B8446088DF377A1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				6155B0222BB34557950EE18A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				D3B655CFA2AB40F78C94EE5C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				174E118762BB4008B28EAF9C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				0D330F8EC26843CDBA203AE1 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				2A52E67A3C9A44F693482060 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				8396661691BD49C481A37246 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				3276A4B8C9B04AFBAAE8565A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				0EFC3B02E5B54A8D8F146A84 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				91FA808B407149BEAF836D1E /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				64B3E68B638148BDB67CCA53 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7302B76637D2443199E15824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7AE727E0344B32977D40B6 /* ext_recast */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A892F13E6BE04AAEB4B20A0D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CE0A74D162AE45EAADD6DB3D /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				64AC32D568BE4116B8099075 /* Source Files */,
+				7899985DAA774C97A55D83AE /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		DCDE65D83560472D88A4339E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A892F13E6BE04AAEB4B20A0D /* CMake Rules */,
+				867021C0E46049258EDD1440 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EE19976F86614F939C4B857F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CE0A74D162AE45EAADD6DB3D /* ext_recast */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65295E268CEF445A8CDDC9FB /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4B9BF526A94CCBBFB636FC /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				DE88F6765576433EA845E895 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903610F0B8E7440AA9137CA7 /* PBXTargetDependency */,
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = BB7AE727E0344B32977D40B6 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		729D40E3B3294E5B907D5639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 34DB113F2B674BC9AB5EA61D /* Build configuration list for PBXProject "recast" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7A878D979A81403CB973DE39 /* Debug */,
+				3A68DB262D1E4665974FD045 /* Release */,
+				483F932DF000453C91CDE477 /* MinSizeRel */,
+				D0EFE87B6F27468CB48D893B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 46D7539E7D2C41B2B029D1F0;
+			projectDirPath = ../../../../cocos2d/external/recast;
+			projectRoot = "";
+			targets = (
+				B019071211F64075ABE9A341 /* ALL_BUILD */,
+				7430198891594BECA1941056 /* ZERO_CHECK */,
+				65295E268CEF445A8CDDC9FB /* ext_recast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F003EEB6BCA4ECFAFD52432 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		89E4F35101D0497AAB864ED3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CBFDEDDD3CD344418489788B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast -f /Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E1D1B767960049609B72B9F9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast -f /Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE88F6765576433EA845E895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B8023F18124014B77C0494 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				FEA4A06A81004C6193366A24 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				275156A8712F4DDB84E8EB45 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				1C8B0FAB651746B1A63C2774 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				8807CA9333CF4E2494814966 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				73ADB036A405423FA26C482C /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				EB980F7B7E5E4D8781978889 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				17A2990AF921483FA85F1934 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				10AB92F2E6C840E797770847 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				7181503D295A4B94999B949F /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				CBBFC055B24A4B279EE173B9 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				B9F4282B396D4E2A989F0C5A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				2000A3CDBAB9447B88225615 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				8E997AB1B2C746B88DBA568F /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				0560226750A44AD687571E59 /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				7EB853B2767D4168B07013EB /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				712F23E4A5FE40399DC5302A /* /Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1638F37E8AD54F65AD9E0838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65295E268CEF445A8CDDC9FB /* ext_recast */;
+			targetProxy = 85325B8C0A414DE9970B90F9 /* PBXContainerItemProxy */;
+		};
+		55A71A64BDE14BEE8315EADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7430198891594BECA1941056 /* ZERO_CHECK */;
+			targetProxy = 279F477E2FEE4665BF55FA28 /* PBXContainerItemProxy */;
+		};
+		903610F0B8E7440AA9137CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7430198891594BECA1941056 /* ZERO_CHECK */;
+			targetProxy = 576696BEE4184E98B16F8BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EE807D0D67F481BA919F3CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Volumes/Seagate Portable Drive/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast/build";
+			};
+			name = MinSizeRel;
+		};
+		14DB91D8DBAB4E82B682993D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Volumes/Seagate Portable Drive/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast/build";
+			};
+			name = Debug;
+		};
+		1AAD236B50A544979963CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1D3D04A244A54535BDB114F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Volumes/Seagate Portable Drive/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast/build";
+			};
+			name = Release;
+		};
+		23D467FF759F41C8BFA04ECA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Volumes/Seagate Portable Drive/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2ABB733B35424DC2B53C48B7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		30F7AFFAFAEF45FE8E670AD5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4971E52A3860442D843D11E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		750519705BD545F999BA100A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D428AAD581D4041ACFDAC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		92919893A213424D995E5463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9739D91626CC46C6A8995103 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C4E18F768FDB4313BD4DA889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C7DDCC258F1A49719EE31B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/shrenilpatel/GitHub/SkeleTest/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DD87A7DC89AA4A0BB4EB61CB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F50F295A6B11436981CE7A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shrenilpatel/GitHub/SkeleTest/mac-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B4B9BF526A94CCBBFB636FC /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D428AAD581D4041ACFDAC0C /* Debug */,
+				C7DDCC258F1A49719EE31B9A /* Release */,
+				2ABB733B35424DC2B53C48B7 /* MinSizeRel */,
+				750519705BD545F999BA100A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		34DB113F2B674BC9AB5EA61D /* Build configuration list for PBXProject "recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DB91D8DBAB4E82B682993D /* Debug */,
+				1D3D04A244A54535BDB114F3 /* Release */,
+				0EE807D0D67F481BA919F3CC /* MinSizeRel */,
+				23D467FF759F41C8BFA04ECA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78ABBE9A53F84CC6B22FCC7A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E18F768FDB4313BD4DA889 /* Debug */,
+				F50F295A6B11436981CE7A52 /* Release */,
+				9739D91626CC46C6A8995103 /* MinSizeRel */,
+				DD87A7DC89AA4A0BB4EB61CB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A0FCE19C6E14F08A812DBFC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92919893A213424D995E5463 /* Debug */,
+				1AAD236B50A544979963CB81 /* Release */,
+				4971E52A3860442D843D11E4 /* MinSizeRel */,
+				30F7AFFAFAEF45FE8E670AD5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 729D40E3B3294E5B907D5639 /* Project object */;
+}
